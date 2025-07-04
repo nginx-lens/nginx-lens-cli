@@ -17,77 +17,70 @@
 nginx-lens --help
 ```
 
-![nginx-lens --help](docs/main-help.jpeg)
-
-### Справочник для команд
-```bash
-nginx-lens <команда> --help
-```
-
-![nginx-lens <команда> --help](docs/command-help.jpeg)
+![nginx-lens --help](docs/demo-help.svg)
 
 ### Доступность upstream-серверов
 ```bash
 nginx-lens health <путь_к_конфигу>
 ```
 
-![nginx-lens health <путь_к_конфигу>](docs/example-health.jpeg)
+![nginx-lens health <путь_к_конфигу>](docs/demo-health.svg)
 
 ### Древовидная визуализация структуры конфига
 ```bash
 nginx-lens tree <путь_к_конфигу>
 ```
 
-![nginx-lens tree <путь_к_конфигу>](docs/example-tree.jpeg)
+![nginx-lens tree <путь_к_конфигу>](docs/demo-tree.svg)
 
 ### Древовидная визуализация include'ов
 ```bash
 nginx-lens include-tree <путь_к_конфигу>
 ```
 
-![nginx-lens include-tree <путь_к_конфигу>](docs/example-include-tree.jpeg)
+![nginx-lens include-tree <путь_к_конфигу>](docs/demo-includetree.svg)
 
 ### Удобный анализатор логов
 ```bash
 nginx-lens logs <путь_к_файлу_лога>
 ```
 
-![nginx-lens logs <путь_к_файлу_лога>](docs/example-logs.jpeg)
+![nginx-lens logs <путь_к_файлу_лога>](docs/demo-logs.svg)
 
 ### Аудит конфигурации
 ```bash
 nginx-lens analyze <путь_к_конфигу>
 ```
 
-![nginx-lens analyze <путь_к_конфигу>](docs/example-analyze.jpeg)
+![nginx-lens analyze <путь_к_конфигу>](docs/demo-analyze.svg)
 
 ### Визуализация маршрутов
 ```bash
 nginx-lens graph <путь_к_конфигу>
 ```
 
-![nginx-lens graph <путь_к_конфигу>](docs/example-graph.jpeg)
+![nginx-lens graph <путь_к_конфигу>](docs/demo-graph.svg)
 
 ### Поиск маршрута для URL
 ```bash
 nginx-lens route <URL>
 ```
 
-![nginx-lens route <URL>](docs/example-route.png)
+![nginx-lens route <URL>](docs/demo-route.svg)
 
 ### Сравнение конфигов
 ```bash
 nginx-lens diff <путь_к_первому_конфигу> <путь_к_второму_конфигу>
 ```
 
-![nginx-lens diff <путь_к_первому_конфигу> <путь_к_второму_конфигу>](docs/example-diff.jpeg)
+![nginx-lens diff <путь_к_первому_конфигу> <путь_к_второму_конфигу>](docs/demo-diff.svg)
 
 ### Удобная проверка синтаксиса конфига
 ```bash
 nginx-lens syntax
 ```
 
-![nginx-lens syntax](docs/example-syntax.jpeg)
+![nginx-lens syntax](docs/demo-syntax.svg)
 
 
 ## Установка и системные требования
