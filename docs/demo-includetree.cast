@@ -1,2 +1,0 @@
-{"version": 2, "width": 175, "height": 14, "timestamp": 1751669038, "env": {"SHELL": "/bin/zsh", "TERM": "xterm-256color"}}
-[0.11258, "o", "\u001b[1;34m./tests/nginx1.conf\u001b[0m\r\n└── /Users/daniil/Downloads/nginx-lens/tests/nginx1.conf\r\n"]
