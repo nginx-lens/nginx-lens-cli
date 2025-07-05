@@ -45,7 +45,7 @@ nginx-lens include-tree <путь_к_конфигу>
 nginx-lens logs <путь_к_файлу_лога>
 ```
 
-![nginx-lens logs <путь_к_файлу_лога>](docs/demo-logs.svg)
+![nginx-lens logs <путь_к_файлу_лога>](https://asciinema.org/a/wScX1279AKZL2XQ6x4LeoESfU)
 
 ### Аудит конфигурации
 ```bash
